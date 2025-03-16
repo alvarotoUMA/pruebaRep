@@ -90,4 +90,11 @@ public class Date {
       return false;
     }
   }
+
+  // Constructor modified by the owner
+  public Date(int dia, int mes, int año) {
+    this.day = dia;
+    this.month = mes;
+    this.year = año;
+  }
 }
